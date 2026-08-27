@@ -44,7 +44,7 @@ Lo importante no es la app, sino **cómo se construyó**. Cada paso del flujo SD
 | 6. Implementación | `habits/` (core + storage + cli) y `tests/`, una tarea cada vez y tests primero |
 | 7. Validación | Recorrido RF por RF comprobando qué test cubre cada uno |
 
-Incluye además una **skill** reutilizable, `spec-generator` (`.claude/skills/spec-generator/`), que guía la entrevista de requisitos y genera la spec siguiendo la plantilla. Está enlazada también para opencode en `.opencode/skill/`.
+Incluye además una **skill** reutilizable, `spec-generator` (`.claude/skills/spec-generator/`), que guía la entrevista de requisitos y genera la spec siguiendo la plantilla. Está enlazada también para opencode en `.opencode/skills/`.
 
 Los prompts exactos de cada paso, y cómo ejecutar la app y sus tests, están en el [README de habits-cli](./habits-cli/README.md).
 

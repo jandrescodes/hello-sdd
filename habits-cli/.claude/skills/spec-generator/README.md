@@ -1,7 +1,7 @@
 # spec-generator — instalación
 
 La skill es una carpeta autocontenida con dos ficheros: `SKILL.md` (las
-instrucciones, con frontmatter YAML) y `plantilla-spec.md` (la plantilla).
+instrucciones, con frontmatter YAML) y `spec-template.md` (la plantilla).
 El contenido es agnóstico de la herramienta; solo cambia dónde se coloca.
 
 ## Claude Code
@@ -17,14 +17,14 @@ Se activa sola cuando pides una spec, o a mano con `/spec-generator`.
 ## opencode
 
 Mismo formato de skill, distinta ruta. Ya está enlazada en este repo
-(`.opencode/skill/spec-generator` es un symlink a la carpeta canónica).
+(`.opencode/skills/spec-generator` es un symlink a la carpeta canónica).
 En otro proyecto, o si tu sistema no maneja symlinks (Windows sin permisos):
 
 ```bash
-mkdir -p .opencode/skill && cp -R .claude/skills/spec-generator .opencode/skill/
+mkdir -p .opencode/skills && cp -R .claude/skills/spec-generator .opencode/skills/
 ```
 
-Global en vez de por proyecto: `~/.config/opencode/skill/`.
+Global en vez de por proyecto: `~/.config/opencode/skills/`.
 
 ## Mantenimiento
 
