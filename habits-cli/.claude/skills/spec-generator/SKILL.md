@@ -47,13 +47,13 @@ contrato: si algo no está aquí, no se implementa.
 
 Cinco patrones. Elige el que corresponda, no mezcles:
 
-| Patrón | Forma | Cuándo |
-|---|---|---|
-| Ubicuo | EL SISTEMA \<hará\> | siempre cierto |
-| Dirigido por evento | CUANDO \<disparador\>, EL SISTEMA \<hará\> | responde a algo |
-| Estado | MIENTRAS \<estado\>, EL SISTEMA \<hará\> | durante una condición |
-| Opcional | DONDE \<característica\>, EL SISTEMA \<hará\> | solo si está presente |
-| No deseado | SI \<condición\>, ENTONCES EL SISTEMA \<hará\> | errores y casos límite |
+| Patrón              | Forma                                          | Cuándo                 |
+| ------------------- | ---------------------------------------------- | ---------------------- |
+| Ubicuo              | EL SISTEMA \<hará\>                            | siempre cierto         |
+| Dirigido por evento | CUANDO \<disparador\>, EL SISTEMA \<hará\>     | responde a algo        |
+| Estado              | MIENTRAS \<estado\>, EL SISTEMA \<hará\>       | durante una condición  |
+| Opcional            | DONDE \<característica\>, EL SISTEMA \<hará\>  | solo si está presente  |
+| No deseado          | SI \<condición\>, ENTONCES EL SISTEMA \<hará\> | errores y casos límite |
 
 Ejemplo bien escrito:
 

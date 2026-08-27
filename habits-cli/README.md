@@ -3,6 +3,7 @@
 Una app de terminal en Python para registrar hábitos de estudio y ver tu racha de días consecutivos.
 
 ## Comandos
+
 ```
 habits add "estudiar python"     → crea un hábito
 habits done "estudiar python"    → marca el hábito como hecho HOY
@@ -72,9 +73,9 @@ separación entre lógica e interfaz, política de tests, persistencia de datos
 e idioma del código y los mensajes. Máximo 15 líneas. Espera mi aprobación.
 ```
 
-*Genera el [/docs/constitution.md](./docs/constitution.md)*
+_Genera el [/docs/constitution.md](./docs/constitution.md)_
 
-*Escribimos el [AGENTS.md](./AGENTS.md) y el [CLAUDE.md](./CLAUDE.md)*
+_Escribimos el [AGENTS.md](./AGENTS.md) y el [CLAUDE.md](./CLAUDE.md)_
 
 **Especificación:**
 
@@ -97,7 +98,7 @@ Tu trabajo:
    eso irá en el plan.
 ```
 
-*Genera el [specs/001-habits-mvp/spec.md](./specs/001-habits-mvp/spec.md)*
+_Genera el [specs/001-habits-mvp/spec.md](./specs/001-habits-mvp/spec.md)_
 
 **Clarificación:**
 
@@ -119,7 +120,7 @@ justificadas (y su alternativa descartada), y estrategia de tests. Todo debe
 respetar la constitución y cubrir todos los RF. Marca qué RF cubre cada parte.
 ```
 
-*Genera el [specs/001-habits-mvp/plan.md](./specs/001-habits-mvp/plan.md)*
+_Genera el [specs/001-habits-mvp/plan.md](./specs/001-habits-mvp/plan.md)_
 
 **Tareas:**
 
@@ -129,7 +130,7 @@ tareas pequeñas (máx. 20-30 min cada una), en orden de dependencia, cada una
 con los RF que cubre y una línea "Hecho cuando:" verificable. Usa checkboxes.
 ```
 
-*Genera el [specs/001-habits-mvp/tasks.md](./specs/001-habits-mvp/tasks.md)*
+_Genera el [specs/001-habits-mvp/tasks.md](./specs/001-habits-mvp/tasks.md)_
 
 **Implementación:**
 
@@ -140,7 +141,7 @@ Ejecuta pytest -q y muéstrame el resultado. Al terminar: marca T2 en tasks.md,
 indica qué RF cubre y PÁRATE. No empieces T3.
 ```
 
-*Genera la implementación del código dentro de /habits*
+_Genera la implementación del código dentro de /habits_
 
 **Validación**
 
